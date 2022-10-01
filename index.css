@@ -151,3 +151,29 @@ nav {
   padding: 5px 15px;
   border-radius: 5px;
 }
+
+/* main */
+
+main {
+  padding: 50px 0;
+}
+
+main h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.formula-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formula-wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  padding: 20px 30px;
+  margin: 0 10px;
+}
