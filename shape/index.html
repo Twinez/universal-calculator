@@ -19,5 +19,93 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <h1>Shape Calculator</h1>
+
+      <section class="formula-wrapper">
+        <button id="triangle">Triangle</button>
+        <button id="square">Square</button>
+        <button id="circle">Circle</button>
+      </section>
+
+      <section class="calculation">
+        <div class="square-wrapper">
+          <div class="square-image">
+            <img src="/assets/svg/square.png" alt="Square" width="100" />
+          </div>
+          <div class="square-calculation">
+            <form id="square-form">
+              <input
+                type="number"
+                id="side-square"
+                placeholder="Side"
+                required
+              />
+              <br />
+              <button type="submit">Calculate</button>
+            </form>
+
+            <div class="square-result">
+              <p id="square-area">Square Area:</p>
+              <p id="square-perimeter">Square Perimeter</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="triangle-wrapper">
+          <div class="triangle-image">
+            <img src="/assets/svg/triangle.png" alt="triangle" width="100" />
+          </div>
+          <div class="triangle-calculation">
+            <form id="triangle-form">
+              <input
+                type="number"
+                id="triangle-base"
+                placeholder="Triangle base"
+                required
+              />
+              <br />
+              <input
+                type="number"
+                id="triangle-height"
+                placeholder="Triangle height"
+                required
+              />
+              <br />
+              <button type="submit">Calculate</button>
+            </form>
+
+            <div class="triangle-result">
+              <p id="triangle-area">Triangle Area:</p>
+              <p id="triangle-perimeter">Triangle Perimeter</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="circle-wrapper">
+          <div class="circle-image">
+            <img src="/assets/svg/circle.png" alt="circle" width="100" />
+          </div>
+          <div class="circle-calculation">
+            <form id="circle-form">
+              <input
+                type="number"
+                id="circle-radius"
+                placeholder="circle radius"
+                required
+              />
+              <br />
+              <button type="submit">Calculate</button>
+            </form>
+
+            <div class="circle-result">
+              <p id="circle-area">Circle Area:</p>
+              <p id="circle-perimeter">Circle Perimeter</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="../index.js"></script>
   </body>
 </html>
